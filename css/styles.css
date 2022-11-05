@@ -1,0 +1,127 @@
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+  font-family: 'Prompt', sans-serif !important;
+  font-size: 2em;
+  color: white !important;
+}
+
+/*BG*/
+.wrapper {
+  height: 100%;
+}
+
+.fixed {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 50%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: table;
+}
+
+.bg {
+  background-image: url("../images/diamond.jpg");
+}
+
+.feature-header-box {
+  height: auto;
+  width: 100%;
+  background-color: rgb(158, 154, 154);
+}
+
+.feature-header {
+  font-size: 9vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feature-box-title {
+  font-size: 5vw;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  font-size: 2vw;
+  color: white;
+}
+
+#features {
+  padding: 15% 7% 15% 7%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.glow-red {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+.glow-blue {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0045e6, 0 0 40px #0036e6, 0 0 50px #0036e6, 0 0 60px #002ee6, 0 0 70px #000fe6;
+}
+
+/*Fade in Image*/
+.fade-in-image {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
