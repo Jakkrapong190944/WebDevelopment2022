@@ -1,2 +1,2 @@
-# WebDevelopment2022
-ใช้ทำ Project Start Up อาจารย์ Oak
+# Group Proect [GP 1] Start Up
+Project JL(Jewely At your Local)
