@@ -15,30 +15,143 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200&display=swap" rel="stylesheet">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
+
 <body class="fade-in-image">
-  <div class="wrapper fixed bg">
-  <h1 class="feature-header glow-red">JL</h1>
-  <p class="glow-red">JEWELY AT YOUR LOCAL</p>
-  <section id="features">
-    <div class="row  glow-blue">
-      <div class="feature-box col-lg-4">
-        <h3 class="feature-box-title">Discover</h3>
-        <p>"เดินทางไกล? โชคลาภ? คุณไม่จำเป็นต้องมีก็เจอสุดยอดเครื่องประดับได้"</p>
-        <p>ค้นพบเครื่องประดับที่ต้องการในชั่วมือเลื่อน</p>
+  <nav class="nav">
+    <div class="nav_container">
+      <div class="logo">
+        <img src="../WebDevelopment2022/images/logo.png" style="height: 50px;width: auto;">
       </div>
-      <div class="feature-box col-lg-4">
-        <h3 class="feature-box-title">Negotiate</h3>
-        <p>Details of Feature</p>
+      <img class="title-image" src="images\iphon-new.png" alt="iphone-mockup" style="height: 50px;width: auto;">
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="#featuer_anchor">Feature</a></li>
+          <li><a href="#test_anchor">Testimonial</a></li>
+          <li><a href="#price_anchor">Price</a></li>
+          <li><a href="#call_anchor">Call</a></li>
+          <li><a href="#social_anchor">Social</a></li>
+          <li><a href="#social_anchor">Our Team</a></li>
+        </ul>
       </div>
-      <div class="feature-box col-lg-4">
-        <h3 class="feature-box-title">Bargain</h3>
-        <p>Details of Feature</p>
-      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
     </div>
-  </section>
-</div>
+  </nav>
+  <div class="wrapper fixed bg" style="padding-top: 10%;">
+    <h1 class="feature-header glow-red">JL</h1>
+    <p class="glow-red" style="padding-bottom: 100%;">JEWELY AT YOUR LOCAL</p>
+    <div class="fixed bg2">
+      <section id="features">
+        <div class="row">
+          <h1 class="glow-red feature-header anchor" id="featuer_anchor">Feature</h1>
+        </div>
+        <div class="row glow-blue">
+          <div class="feature-box col-lg-4">
+            <i class="fa-solid fa-magnifying-glass fa-solid fa-7x"></i>
+            <h3 class="feature-box-title">Discover</h3>
+            <p>"เดินทางไกล? โชคลาภ? คุณไม่จำเป็นต้องมีก็เจอสุดยอดเครื่องประดับได้"</p>
+            <p>ค้นพบเครื่องประดับที่ต้องการในชั่วมือเลื่อน</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fa-sharp fa-solid fa-handshake fa-solid fa-7x"></i>
+            <h3 class="feature-box-title">Communicate</h3>
+            <p>"ระยะห่าง? ไม่สามารถตกลงกันได้เพราะติดนัด? โดนซื้อตัดหน้า? ลืมไปได้เลย!"</p>
+            <p>การติดต่อสามารถทำได้ทุกที ทุกเวลา สามารถเป็นเจ้าของอัญมณีที่หมายตาได้ในพริบตา</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fa-sharp fa-solid fa-scale-balanced fa-solid fa-7x"></i>
+            <h3 class="feature-box-title">Bargain</h3>
+            <p>"แพงเกินไป? ไม่สมราคา? ต่อรอได้ทันที!"</p>
+            <p>การต่อรองสามารถทำได้ เพียงพบตำหนิติดต่อทันที</p>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="row glow-blue">
+          <div class="row">
+            <h1 class="glow-red feature-header anchor" id="test_anchor">Testimonial</h1>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fa-solid fa-person fa-7x"></i>
+            <p>"หน้าเว็ปมีความสวยค้นหาสินค้าได้ง่ายมากๆ"</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fa-solid fa-person fa-7x"></i>
+            <p>"ติดต่อกับผู้ชายสินค้าได้สบาย"</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fa-solid fa-person fa-7x"></i>
+            <p>"สินค้าตรงปกไม่จกตา"</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fa-solid fa-person-dress fa-7x"></i>
+            <p>"แอดมินตอบไวมากๆ"</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fa-solid fa-person-dress fa-7x"></i>
+            <p>"ได้รับสินค้าแล้วตรงปกจากรูปภาพมาก"</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fa-solid fa-person-dress fa-7x"></i>
+            <p>"สวยทุกอันเลยยย"</p>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="row glow-blue">
+          <div class="row">
+            <h1 class="glow-red feature-header anchor" id="price_anchor">Price</h1>
+          </div>
+          <div class="feature-box">
+            <h3 class="feature-box-title"></h3>
+            <p>""</p>
+          </div>
+      </section>
+      <section id="features">
+        <div class="row glow-blue">
+          <div class="row">
+            <h1 class="glow-red feature-header anchor" id="call_anchor">Call For Action</h1>
+          </div>
+          <div class="feature-box">
+            <h3 class="feature-box-title"></h3>
+            <p>""</p>
+          </div>
+      </section>
+      <section id="features">
+        <div class="row glow-blue">
+          <div class="row">
+            <h1 class="glow-red feature-header anchor" id="social_anchor">Social</h1>
+          </div>
+          <div class="feature-box">
+            <h3 class="feature-box-title"></h3>
+            <p>""</p>
+          </div>
+      </section>
+    </div>
+
+  </div>
 </body>
 
 </html>
+<script>
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > 50) {
+      $('.nav').addClass('affix');
+      console.log("OK");
+    } else {
+      $('.nav').removeClass('affix');
+    }
+  });
+  $('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+  });
+</script>
