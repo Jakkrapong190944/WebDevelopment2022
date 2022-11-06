@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>team-member</title>
+  <title>Member</title>
   <link rel="icon" href="./images/gem-solid.svg" type="image/icon type">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/styles-page.css">
@@ -16,45 +16,71 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
 
 </head>
 
 <body class="fade-in-image">
-  <div class="wrapper fixed ">
+  <nav class="nav">
+    <div class="nav_container">
+      <div class="logo">
+        <img src="../WebDevelopment2022/images/logo.png" style="height: 50px;width: auto;">
+      </div>
+      <img class="title-image" src="images\iphon-new.png" alt="iphone-mockup" style="height: 50px;width: auto;">
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="../WebDevelopment2022/index.html">Home</a></li>
+          <li><a href="../WebDevelopment2022/index.html#featuer_anchor">Feature</a></li>
+          <li><a href="../WebDevelopment2022/index.html#test_anchor">Testimonial</a></li>
+          <li><a href="../WebDevelopment2022/index.html#price_anchor">Price</a></li>
+          <li><a href="../WebDevelopment2022/index.html#call_anchor">Call</a></li>
+          <li><a href="../WebDevelopment2022/index.html#social_anchor">Social</a></li>
+          <li><a href="../WebDevelopment2022/team-member.html">Our Team</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
+  <div class="wrapper fixed bg2" style="padding-top: 10%;">
     <h2 class="page-header glow-gb">Our Team</h2>
     <p></p>
     <p class="glow-gb">มาทำความรู้จักกับพนักงานในบริษัทของเรา</p>
     <section id="Page">
-      <div class="row" >
-      <div class="Page-box col-lg-4">
-        <div class="container">
-          <tr>
-            <td>
-              <a href="https://vamsper.github.io/Mysite/">
-          <img src="images/ceo.jpg" alt="ceo" class="image" >
-              </a>
-            </td>
-          </tr>
-          <div class="middle">
-           <h3 class="text">ชลลศักดิ์ ปันใจแก้ว 6352300227 </h3>
+      <div class="row">
+        <div class="Page-box col-lg-4">
+          <div class="container">
+            <tr>
+              <td>
+                <a href="https://vamsper.github.io/Mysite/">
+                  <img src="images/ceo.jpg" alt="ceo" class="image">
+                </a>
+              </td>
+            </tr>
+            <div class="middle">
+              <h3 class="text">ชลลศักดิ์ ปันใจแก้ว 6352300227 </h3>
+            </div>
+            <p></p>
+            <h4 class="member">CEO</h4>
           </div>
-          <p></p>
-        <h4 class="member">CEO</h4>
         </div>
       </div>
-    </div>
       <div class="row">
         <div class="Page-box col-lg-4">
           <div class="container ">
             <tr>
               <td>
                 <a href="https://sorashi9028.github.io/resume/index.html">
-            <img src="images/Coordinator.jpg" alt="Coordinator" class="image" >
+                  <img src="images/Coordinator.jpg" alt="Coordinator" class="image">
                 </a>
               </td>
             </tr>
             <div class="middle">
-             <h3 class="text" >จีรศักดิ์ ขุ้ยตั้ง 6352300189 </h3>
+              <h3 class="text">จีรศักดิ์ ขุ้ยตั้ง 6352300189 </h3>
             </div>
             <p></p>
             <h4 class="member">Coordinator</h4>
@@ -65,12 +91,12 @@
             <tr>
               <td>
                 <a href="https://jakkrapong190944.github.io/Resume/">
-            <img src="images/member3.jpg" alt="member3" class="image" >
+                  <img src="images/member3.jpg" alt="member3" class="image">
                 </a>
               </td>
             </tr>
             <div class="middle">
-             <h3 class="text" >จักรพงษ์ อินทมินทร์ 6352300359 </h3>
+              <h3 class="text">จักรพงษ์ อินทมินทร์ 6352300359 </h3>
             </div>
             <p></p>
             <h4 class="member">Member</h4>
@@ -81,12 +107,12 @@
             <tr>
               <td>
                 <a href="https://astaponfluk.github.io/Resume/">
-            <img src="images/member4.jpg" alt="member4" class="image" >
+                  <img src="images/member4.jpg" alt="member4" class="image">
                 </a>
               </td>
             </tr>
             <div class="middle">
-             <h3 class="text">อรรถพล อนุชาติ 6352300162 </h3>
+              <h3 class="text">อรรถพล อนุชาติ 6352300162 </h3>
             </div>
             <p></p>
             <h4 class="member">Member</h4>
@@ -97,12 +123,12 @@
             <tr>
               <td>
                 <a href="https://snaomis.github.io/personalResume/Personal%20Website%20-%20Resume.html">
-            <img src="images/member5.jpg" alt="member5" class="image" >
+                  <img src="images/member5.jpg" alt="member5" class="image">
                 </a>
               </td>
             </tr>
             <div class="middle">
-             <h3 class="text" >สิริอาภา เเก้ววิชิต 6352300120 </h3>
+              <h3 class="text">สิริอาภา เเก้ววิชิต 6352300120 </h3>
             </div>
             <p></p>
             <h4 class="member">Member</h4>
@@ -113,12 +139,12 @@
             <tr>
               <td>
                 <a href="https://chutimaphutthaphong.github.io/resume/index.html">
-            <img src="images/member6.jpg" alt="member6" class="image" >
+                  <img src="images/member6.jpg" alt="member6" class="image">
                 </a>
               </td>
             </tr>
             <div class="middle">
-             <h3 class="text" >ชุติมา พุทธพงษ์ 6352300316</h3>
+              <h3 class="text">ชุติมา พุทธพงษ์ 6352300316</h3>
             </div>
             <p></p>
             <h4 class="member">Member</h4>
@@ -129,12 +155,12 @@
             <tr>
               <td>
                 <a href="">
-            <img src="images/member7.jpg" alt="member7" class="image" >
+                  <img src="images/member7.jpg" alt="member7" class="image">
                 </a>
               </td>
             </tr>
             <div class="middle">
-             <h3 class="text" >ธนกมล แซ่โค้ว 6352300022 </h3>
+              <h3 class="text">ธนกมล แซ่โค้ว 6352300022 </h3>
             </div>
             <p></p>
             <h4 class="member">Member</h4>
@@ -144,13 +170,13 @@
           <div class="container ">
             <tr>
               <td>
-                <a  href="https://tuwanonpadee.github.io/resume/">
-            <img src="images/member8.jpg" alt="member8" class="image" >
+                <a href="https://tuwanonpadee.github.io/resume/">
+                  <img src="images/member8.jpg" alt="member8" class="image">
                 </a>
               </td>
             </tr>
             <div class="middle">
-             <h3 class="text">ธุวานนท์ พาดี 6352300421 </h3>
+              <h3 class="text">ธุวานนท์ พาดี 6352300421 </h3>
             </div>
             <p></p>
             <h4 class="member">Member</h4>
@@ -160,29 +186,29 @@
           <div class="container ">
             <tr>
               <td>
-                <a  href="https://github.com/pompamchan/resume/index.html">
-            <img src="images/member9.jpg" alt="member9" class="image" >
+                <a href="https://github.com/pompamchan/resume/index.html">
+                  <img src="images/member9.jpg" alt="member9" class="image">
                 </a>
               </td>
             </tr>
             <div class="middle">
-             <h3 class="text">จันทกานต์ ไตรยวงค์ 6352300294 </h3>
+              <h3 class="text">จันทกานต์ ไตรยวงค์ 6352300294 </h3>
             </div>
             <p></p>
             <h4 class="member">Member</h4>
           </div>
         </div>
         <div class="Page-box col-lg-4">
-          <div class="container ">
+          <div class="container">
             <tr>
               <td>
                 <a href="https://suravee1999.github.io/resume/">
-            <img src="images/member10.jpg" alt="member10" class="image" >
+                  <img src="images/member10.jpg" alt="member10" class="image">
                 </a>
               </td>
             </tr>
             <div class="middle">
-             <h3 class="text" >สุรวี ศิริวัฒนานุกูล 635300804 </h3>
+              <h3 class="text">สุรวี ศิริวัฒนานุกูล 635300804 </h3>
             </div>
             <p></p>
             <h4 class="member">Member</h4>
@@ -190,7 +216,24 @@
         </div>
       </div>
     </section>
-    </div>
+  </div>
 </body>
 
 </html>
+
+<script>
+  $(window).scroll(function () {
+    if ($(document).scrollTop() > 50) {
+      $('.nav').addClass('affix');
+      console.log("OK");
+    } else {
+      $('.nav').removeClass('affix');
+    }
+  });
+  $('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+  });
+  </script>
