@@ -1,0 +1,80 @@
+#Page{
+    padding: 15% 7% 15% 7%;
+  }
+  
+  .page-header {
+    font-size: 9vw;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .glow-gb {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #06efe8, 0 0 40px #06efe8, 0 0 50px #06efe8, 0 0 60px #06efe8, 0 0 70px #06efe8;
+  }
+  
+  .Page-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    border-radius: 50%;
+    opacity: 1;
+    width: 100%;
+    height: 25vw;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+  }
+  @media (max-width: 980px) {
+  
+    .image {
+      width: 70%;
+      height: 35vw;
+    }
+    
+    .page-header {
+      font-size: 200px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    border: hidden;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    padding: auto ;
+  }
+  
+  .member{
+    background-color: rgb(6, 6, 6);
+    color: white;
+    font-size: 20px;
+    padding: 16px 20px;
+  }
