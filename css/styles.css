@@ -172,7 +172,7 @@ p {
 
 .nav {
   width: 100% !important;
-  height: 65px;
+  height: 90px;
   position: fixed;
   line-height: 65px;
   text-align: center;
@@ -524,9 +524,8 @@ p {
 }
 
 .affix {
-  padding: 0;
-  background: rgb(34, 22, 233);
-  background: linear-gradient(90deg, rgba(34, 22, 233, 1) 0%, rgba(9, 21, 121, 1) 42%, rgba(255, 0, 0, 1) 100%);
+  background: black;
+  text-align: center;
 }
 
 .myH2 {
